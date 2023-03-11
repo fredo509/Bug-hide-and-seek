@@ -1,0 +1,271 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+    align-items: center;
+    padding: 0px 20px;
+    position:fixed;
+}
+#navbar{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: rgba(34, 11, 11, 0.644);
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    
+    
+}
+
+.nav-link{
+    display: flex;
+    color: lightblue;
+    font-size: 110%;
+    text-decoration: none;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 5px;
+    width: 17.2%;
+    
+    
+}
+
+.nav-link:hover {
+    display: flex;
+        color: white;
+        font-size: 110%;
+        text-decoration: none;
+        height: 70px;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 5px;
+        width: 17.2%;
+    background-color: rgb(38, 32, 75);
+} 
+
+
+
+#welcome-section{
+    background: url("https://th.bing.com/th/id/OIP.y1SbE7wiVLAxK7Vi_5zu-QHaE8?pid=ImgDet&rs=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#welbackg{
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+#welcome-section h1{
+    font-size: 250%;
+    color: white;
+    text-align: center;
+    margin-bottom: 0%;
+  
+}
+.description{
+    color:lightblue;
+    font-size:120%;
+    text-align: center;
+    font-style: none;
+}
+
+#projects{
+    
+    width: 100%;
+    background-color: rgb(38, 32, 75);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top:60px;
+    
+}
+
+#projects h1{
+    align-self: center;
+    text-align: center;
+    font-size: 150%;
+    color: white;
+    width: 80%;
+    border-bottom: 3px solid  white;
+    padding-bottom: 10px;
+    
+}
+
+.project-container{
+    width: 100%;
+    display:grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+
+    
+
+}
+
+.project-title{
+    
+    background: rgb(53, 53, 53);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 2%;
+    text-decoration: none;
+    
+}
+
+.project-title p{
+    align-self: center;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 60px;
+    
+}
+
+.project-img{
+    max-width:100%;
+    height: 400px;
+    
+}
+
+.BtnShowAll{
+    font-size: 15px;
+    color: white;
+    margin:40px 0px;
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    background: rgb(61, 61, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+#profil-link{
+    height: 100vh;
+    background-color:rgb(61, 61, 61) ;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#profil-link h1{
+    font-size: 250%;
+    font-style: bold;
+    align-self: center;
+    color: white;
+}
+
+.AskText{
+    align-self: center;
+    font-size: 20px;
+    color: white;
+    margin-top: -20px;
+
+}
+
+#iconSection{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    height: 90px;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.icon-Img{
+    max-width:35px;
+    margin-right: 2px;
+    
+}
+.Icon-link{
+    display: flex;
+    align-items: center;
+    font-size: 170%;
+    text-decoration: none;
+    margin-right: 10px;
+    width: 20%;
+    height: 80px;
+    justify-content: center;
+    color: white;
+}
+
+.Icon-link:hover {
+    color: white;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 10px;
+    width: 20%;
+    justify-content: center;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    #iconSection {
+        width: 40%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        align-self: center;
+        height:90px;
+        justify-content:space-around;
+        height: 400px;
+        background-color: brown;
+    }
+        .Icon-link {
+        display: flex;
+        align-items: flex-start;
+        font-size: 170%;
+        text-decoration: none;
+        margin-right: 10px;
+        width: 100%;
+        height: 80px;
+        justify-content: flex-start;
+        color: white;
+    }
+    #avatar{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+
+}
+
+
